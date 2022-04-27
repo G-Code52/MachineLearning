@@ -1,4 +1,5 @@
 from EjemploMatrices import *
+from Estadistica import *
 
 if __name__ == '__main__':
     # Ejemplo()
@@ -25,4 +26,6 @@ if __name__ == '__main__':
     # MatrizAleatoria()
     # Ejercicio1Resuelto()
     # ExtraerValorMatriz()
-    Ejercicio2()
+    # Ejercicio2()
+    # ConcatenacionMatrices()
+    Est()

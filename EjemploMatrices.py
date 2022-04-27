@@ -208,8 +208,35 @@ def Ejercicio2():
     # m = np.random.choice([2, 4, 6], p=[0.5, 0.5, 0.0], size=(1))
     # print(m)
 
-    x = np.random.choice([4, 2, 8, 10], p=[0.3, 0.5, 0.1, 0.1], size=[50])
+    x = np.random.choice([4, 2, 8, 10], p=[0.3, 0.2, 0.2, 0.3], size=[50])
     print(x)
+
+    # Los dados tienen seis caras, si nos preguntamos ¿Cuál es la probabilidad de obtener un número par?
+    # el espacio muestral es EspMues = {1, 2, 3, 4, 5, 6}
+    # Espacio muestral evento(pares) = {2, 4, 6}
+    # La probabilidad es igual al espacio muestral / espacio muestral evento
+    # 1/2 para este caso = 0.5
+
+    x = np.random.choice([2, 4, 6], p=[0.3, 0.3, 0.4], size=[6])
+    print(x)
+
+
+def ConcatenacionMatrices():
+
+    # Concatena matrices
+
+    m1 = np.array([[1, 2], [1, 2], [1, 2]])
+    m2 = np.array([[8, 9], [8, 9], [8, 9]])
+    print(m1)
+    print("")
+    print(m2)
+    print("")
+    print(np.concatenate([m1, m2], axis=1))
+
+
+
+
+
 
 
 
